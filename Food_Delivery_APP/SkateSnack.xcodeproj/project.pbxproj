@@ -25,6 +25,7 @@
 		B2D0E8902B7AAD490055A4DB /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2D0E8832B7AAD490055A4DB /* Roboto-Bold.ttf */; };
 		B2D0E8912B7AAD490055A4DB /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2D0E8842B7AAD490055A4DB /* Roboto-Thin.ttf */; };
 		B2D0E8922B7AAD490055A4DB /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2D0E8852B7AAD490055A4DB /* Roboto-Black.ttf */; };
+		B2D0E8952B7AAF9E0055A4DB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D0E8942B7AAF9E0055A4DB /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		B2D0E8832B7AAD490055A4DB /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		B2D0E8842B7AAD490055A4DB /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		B2D0E8852B7AAD490055A4DB /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		B2D0E8942B7AAF9E0055A4DB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		B2D0E8762B7AAD190055A4DB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B2D0E8932B7AAF8C0055A4DB /* Extensions */,
 				B2D0E8772B7AAD210055A4DB /* Fonts */,
 			);
 			path = Resources;
@@ -125,6 +128,14 @@
 				B2D0E8852B7AAD490055A4DB /* Roboto-Black.ttf */,
 			);
 			path = Roboto;
+			sourceTree = "<group>";
+		};
+		B2D0E8932B7AAF8C0055A4DB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B2D0E8942B7AAF9E0055A4DB /* Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +224,7 @@
 				B2D0E8672B7AA0560055A4DB /* ViewController.swift in Sources */,
 				B2D0E8632B7AA0560055A4DB /* AppDelegate.swift in Sources */,
 				B2D0E8652B7AA0560055A4DB /* SceneDelegate.swift in Sources */,
+				B2D0E8952B7AAF9E0055A4DB /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
